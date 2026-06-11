@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: slategrey;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-distros{
+    padding: 0 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: slategrey;
+    padding: 10px;
+}
+
+.menu-distros a {
+    color: white;
+}
+
+.posts {
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+details div {
+    background-color: rgb(136, 151, 167);
+    padding: 0 10px 1px
+}
+
+.download {
+    font-size: 12px;
+}
