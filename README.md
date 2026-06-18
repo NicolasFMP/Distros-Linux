@@ -1,6 +1,6 @@
-## Distros Linux
+# Distros Linux
 
-Site informativo desenvolvido em HTML e CSS com o objetivo de apresentar diversas distribuições Linux, seus requisitos, características, ambientes gráficos e informações sobre jogos no Linux utilizando Proton.
+Site informativo desenvolvido em HTML e CSS com o objetivo de apresentar diversas distribuições Linux, seus requisitos, características, ambientes de desktop e informações sobre jogos no Linux utilizando Proton.
 
 Acesse o site: https://nicolasfmp.github.io/Distros-Linux/
 
@@ -25,14 +25,14 @@ O Distros Linux é um portal estático criado para auxiliar usuários interessad
   - Bazzite
   - SteamOS
 
-- Trabalho / Empresarial
+- Produtividade / Trabalho
 
   - Fedora
   - Pop!_OS
 
 - Segurança / Privacidade
     
-  - QubesOS
+  - Qubes OS
   - secureblue
   - Tails
   - Kali
@@ -75,13 +75,26 @@ git clone https://github.com/NicolasFMP/Distros-Linux.git
 ```text
 cd Distros-Linux
 ```
-3. Abra o arquivo: `index.html`
+3. Abra o arquivo `index.html`
 
-**Utilizando o VSCode**
+**Windows**
+```text
+start index.html
+```
+**Linux**
+```text
+xdg-open index.html
+```
+**macOS**
+```text
+open index.html
+```
+
+**Utilizando o VS Code**
 
 1. Abra a pasta do projeto no VSCode
 2. Instale a extensão: `Live Preview` pela Microsoft
-3. Clique com o botão direito no arquivo HTML e pressione: `Show Preview`
+3. Clique com o botão direito no arquivo `index.html` e pressione: `Show Preview`
 4. Clique no menu hamburguer na tela de preview e selecione: `Open in Browser`
 
 ## Estrutura do Projeto
@@ -109,6 +122,6 @@ As marcas, logotipos, nomes das distribuições e capturas de tela pertencem aos
 
 **Nicolas Miguel Costa e Vitória dos Santos Christ**
 
-Projeto desenvolvido para divulgação e aprendizado sobre o ecossistema Linux, suas distribuições, ambientes gráficos e possibilidades para usuários iniciantes, intermediários e avançados.
+Projeto desenvolvido para divulgação e aprendizado sobre distribuições Linux, ambientes gráficos e possibilidades para usuários iniciantes, intermediários e avançados.
 
 © 2026 Distros Linux
